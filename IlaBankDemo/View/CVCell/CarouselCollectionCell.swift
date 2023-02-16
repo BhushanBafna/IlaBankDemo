@@ -1,5 +1,5 @@
 //
-//  ImgCorousalCVCell.swift
+//  CarouselCollectionCell.swift
 //  IlaBankDemo
 //
 //  Created by webwerks on 14/02/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ImgCorousalCVCell: UICollectionViewCell {
+class CarouselCollectionCell: UICollectionViewCell {
     
     //MARK: IBOutlets
     @IBOutlet weak var imgView: UIImageView!
@@ -15,7 +15,6 @@ class ImgCorousalCVCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
         setupUI()
     }
     

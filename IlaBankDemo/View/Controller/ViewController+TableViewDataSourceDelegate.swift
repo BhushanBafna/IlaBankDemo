@@ -7,6 +7,7 @@
 
 import UIKit
 
+//MARK: Table view datasource & delegate
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -16,7 +17,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if viewModel?.numberOfRowForCarousal(index: currentPageIndex) ?? 0 > 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: VcConstants.listingTvCell) as? ListingTVCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: VcConstants.naturePicListingTableCell) as? NaturePicListingTableCell
             if let sectionData = viewModel?.getNatureDataForCarousalAt(index: currentPageIndex) {
                 let cellData = sectionData[indexPath.row]
                 cell?.setupData(data: cellData)
@@ -32,11 +33,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
         return UITableView.automaticDimension
-    }
-    
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 0
     }
 }

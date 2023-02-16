@@ -10,21 +10,17 @@
 		18409419299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409418299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift */; };
 		1840941B299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840941A299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift */; };
 		187CF806299BC9BB00CE7831 /* CustomCarlouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CF805299BC9BB00CE7831 /* CustomCarlouselView.swift */; };
-		188FA55D29925A3700E10611 /* ImgCorousalCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FA55B29925A3700E10611 /* ImgCorousalCVCell.swift */; };
-		188FA55E29925A3700E10611 /* ImgCorousalCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188FA55C29925A3700E10611 /* ImgCorousalCVCell.xib */; };
+		188FA55D29925A3700E10611 /* CarouselCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FA55B29925A3700E10611 /* CarouselCollectionCell.swift */; };
+		188FA55E29925A3700E10611 /* CarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188FA55C29925A3700E10611 /* CarouselCollectionCell.xib */; };
 		1897EE84299E020E001864EE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897EE83299E020E001864EE /* Utils.swift */; };
 		189C17342992502200305871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17332992502200305871 /* AppDelegate.swift */; };
 		189C17362992502200305871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17352992502200305871 /* SceneDelegate.swift */; };
 		189C17382992502200305871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17372992502200305871 /* ViewController.swift */; };
 		189C173B2992502200305871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C17392992502200305871 /* Main.storyboard */; };
-		189C173E2992502200305871 /* IlaBankDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189C173C2992502200305871 /* IlaBankDemo.xcdatamodeld */; };
 		189C17402992502C00305871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C173F2992502C00305871 /* Assets.xcassets */; };
 		189C17432992502C00305871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C17412992502C00305871 /* LaunchScreen.storyboard */; };
-		189C174E2992502D00305871 /* IlaBankDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C174D2992502D00305871 /* IlaBankDemoTests.swift */; };
-		189C17582992502D00305871 /* IlaBankDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17572992502D00305871 /* IlaBankDemoUITests.swift */; };
-		189C175A2992502E00305871 /* IlaBankDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17592992502E00305871 /* IlaBankDemoUITestsLaunchTests.swift */; };
-		18A4F7B02993A7A10000E189 /* ListingTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F7AE2993A7A10000E189 /* ListingTVCell.swift */; };
-		18A4F7B12993A7A10000E189 /* ListingTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F7AF2993A7A10000E189 /* ListingTVCell.xib */; };
+		18A4F7B02993A7A10000E189 /* NaturePicListingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4F7AE2993A7A10000E189 /* NaturePicListingTableCell.swift */; };
+		18A4F7B12993A7A10000E189 /* NaturePicListingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A4F7AF2993A7A10000E189 /* NaturePicListingTableCell.xib */; };
 		18A644D3299A62EC00986345 /* NatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A644D2299A62EC00986345 /* NatureViewModel.swift */; };
 		18A644D6299A642100986345 /* NatureDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A644D5299A642100986345 /* NatureDataModel.swift */; };
 		18A644D8299A77C300986345 /* ImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A644D7299A77C300986345 /* ImageData.json */; };
@@ -51,25 +47,21 @@
 		18409418299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableViewDataSourceDelegate.swift"; sourceTree = "<group>"; };
 		1840941A299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionViewDatasourceDelegate.swift"; sourceTree = "<group>"; };
 		187CF805299BC9BB00CE7831 /* CustomCarlouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarlouselView.swift; sourceTree = "<group>"; };
-		188FA55B29925A3700E10611 /* ImgCorousalCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgCorousalCVCell.swift; sourceTree = "<group>"; };
-		188FA55C29925A3700E10611 /* ImgCorousalCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImgCorousalCVCell.xib; sourceTree = "<group>"; };
+		188FA55B29925A3700E10611 /* CarouselCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionCell.swift; sourceTree = "<group>"; };
+		188FA55C29925A3700E10611 /* CarouselCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCollectionCell.xib; sourceTree = "<group>"; };
 		1897EE83299E020E001864EE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		189C17302992502200305871 /* IlaBankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlaBankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C17332992502200305871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189C17352992502200305871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		189C17372992502200305871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189C173A2992502200305871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		189C173D2992502200305871 /* IlaBankDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IlaBankDemo.xcdatamodel; sourceTree = "<group>"; };
 		189C173F2992502C00305871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189C17422992502C00305871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189C17442992502C00305871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189C17492992502D00305871 /* IlaBankDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlaBankDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		189C174D2992502D00305871 /* IlaBankDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlaBankDemoTests.swift; sourceTree = "<group>"; };
 		189C17532992502D00305871 /* IlaBankDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlaBankDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		189C17572992502D00305871 /* IlaBankDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlaBankDemoUITests.swift; sourceTree = "<group>"; };
-		189C17592992502E00305871 /* IlaBankDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlaBankDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		18A4F7AE2993A7A10000E189 /* ListingTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTVCell.swift; sourceTree = "<group>"; };
-		18A4F7AF2993A7A10000E189 /* ListingTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListingTVCell.xib; sourceTree = "<group>"; };
+		18A4F7AE2993A7A10000E189 /* NaturePicListingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturePicListingTableCell.swift; sourceTree = "<group>"; };
+		18A4F7AF2993A7A10000E189 /* NaturePicListingTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NaturePicListingTableCell.xib; sourceTree = "<group>"; };
 		18A644D2299A62EC00986345 /* NatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureViewModel.swift; sourceTree = "<group>"; };
 		18A644D5299A642100986345 /* NatureDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureDataModel.swift; sourceTree = "<group>"; };
 		18A644D7299A77C300986345 /* ImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ImageData.json; sourceTree = "<group>"; };
@@ -123,8 +115,8 @@
 		188FA559299259FC00E10611 /* TVCell */ = {
 			isa = PBXGroup;
 			children = (
-				18A4F7AE2993A7A10000E189 /* ListingTVCell.swift */,
-				18A4F7AF2993A7A10000E189 /* ListingTVCell.xib */,
+				18A4F7AE2993A7A10000E189 /* NaturePicListingTableCell.swift */,
+				18A4F7AF2993A7A10000E189 /* NaturePicListingTableCell.xib */,
 			);
 			path = TVCell;
 			sourceTree = "<group>";
@@ -132,8 +124,8 @@
 		188FA55A29925A0300E10611 /* CVCell */ = {
 			isa = PBXGroup;
 			children = (
-				188FA55B29925A3700E10611 /* ImgCorousalCVCell.swift */,
-				188FA55C29925A3700E10611 /* ImgCorousalCVCell.xib */,
+				188FA55B29925A3700E10611 /* CarouselCollectionCell.swift */,
+				188FA55C29925A3700E10611 /* CarouselCollectionCell.xib */,
 			);
 			path = CVCell;
 			sourceTree = "<group>";
@@ -152,8 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				189C17322992502200305871 /* IlaBankDemo */,
-				189C174C2992502D00305871 /* IlaBankDemoTests */,
-				189C17562992502D00305871 /* IlaBankDemoUITests */,
 				189C17312992502200305871 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -171,41 +161,21 @@
 		189C17322992502200305871 /* IlaBankDemo */ = {
 			isa = PBXGroup;
 			children = (
+				189C17442992502C00305871 /* Info.plist */,
+				18F03382299E41D1004E1DCB /* App */,
 				187CF804299BC98D00CE7831 /* Utilities */,
 				18A4F7B22993CF110000E189 /* Resources */,
 				18A644D4299A641100986345 /* Model */,
 				188FA5542992547F00E10611 /* View */,
 				18A644D1299A62DA00986345 /* ViewModel */,
-				189C17352992502200305871 /* SceneDelegate.swift */,
-				189C17412992502C00305871 /* LaunchScreen.storyboard */,
-				189C17442992502C00305871 /* Info.plist */,
-				189C173C2992502200305871 /* IlaBankDemo.xcdatamodeld */,
 			);
 			path = IlaBankDemo;
-			sourceTree = "<group>";
-		};
-		189C174C2992502D00305871 /* IlaBankDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				189C174D2992502D00305871 /* IlaBankDemoTests.swift */,
-			);
-			path = IlaBankDemoTests;
-			sourceTree = "<group>";
-		};
-		189C17562992502D00305871 /* IlaBankDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				189C17572992502D00305871 /* IlaBankDemoUITests.swift */,
-				189C17592992502E00305871 /* IlaBankDemoUITestsLaunchTests.swift */,
-			);
-			path = IlaBankDemoUITests;
 			sourceTree = "<group>";
 		};
 		18A4F7B22993CF110000E189 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				18A644D7299A77C300986345 /* ImageData.json */,
-				189C17332992502200305871 /* AppDelegate.swift */,
 				189C173F2992502C00305871 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -214,6 +184,7 @@
 		18A644D0299A571500986345 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				189C17412992502C00305871 /* LaunchScreen.storyboard */,
 				189C17392992502200305871 /* Main.storyboard */,
 			);
 			path = Storyboard;
@@ -233,6 +204,15 @@
 				18A644D5299A642100986345 /* NatureDataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		18F03382299E41D1004E1DCB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				189C17332992502200305871 /* AppDelegate.swift */,
+				189C17352992502200305871 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,10 +321,10 @@
 			files = (
 				189C17432992502C00305871 /* LaunchScreen.storyboard in Resources */,
 				18A644D8299A77C300986345 /* ImageData.json in Resources */,
-				188FA55E29925A3700E10611 /* ImgCorousalCVCell.xib in Resources */,
+				188FA55E29925A3700E10611 /* CarouselCollectionCell.xib in Resources */,
 				189C17402992502C00305871 /* Assets.xcassets in Resources */,
 				189C173B2992502200305871 /* Main.storyboard in Resources */,
-				18A4F7B12993A7A10000E189 /* ListingTVCell.xib in Resources */,
+				18A4F7B12993A7A10000E189 /* NaturePicListingTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,15 +350,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18409419299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift in Sources */,
-				18A4F7B02993A7A10000E189 /* ListingTVCell.swift in Sources */,
+				18A4F7B02993A7A10000E189 /* NaturePicListingTableCell.swift in Sources */,
 				187CF806299BC9BB00CE7831 /* CustomCarlouselView.swift in Sources */,
 				189C17382992502200305871 /* ViewController.swift in Sources */,
 				1840941B299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift in Sources */,
 				18A644D6299A642100986345 /* NatureDataModel.swift in Sources */,
 				189C17342992502200305871 /* AppDelegate.swift in Sources */,
-				189C173E2992502200305871 /* IlaBankDemo.xcdatamodeld in Sources */,
 				18A644D3299A62EC00986345 /* NatureViewModel.swift in Sources */,
-				188FA55D29925A3700E10611 /* ImgCorousalCVCell.swift in Sources */,
+				188FA55D29925A3700E10611 /* CarouselCollectionCell.swift in Sources */,
 				189C17362992502200305871 /* SceneDelegate.swift in Sources */,
 				1897EE84299E020E001864EE /* Utils.swift in Sources */,
 			);
@@ -388,7 +367,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189C174E2992502D00305871 /* IlaBankDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189C17582992502D00305871 /* IlaBankDemoUITests.swift in Sources */,
-				189C175A2992502E00305871 /* IlaBankDemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,19 +704,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		189C173C2992502200305871 /* IlaBankDemo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				189C173D2992502200305871 /* IlaBankDemo.xcdatamodel */,
-			);
-			currentVersion = 189C173D2992502200305871 /* IlaBankDemo.xcdatamodel */;
-			path = IlaBankDemo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 189C17282992502100305871 /* Project object */;
 }

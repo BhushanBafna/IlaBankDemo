@@ -1,5 +1,5 @@
 //
-//  ListingTVCell.swift
+//  NaturePicListingTableCell.swift
 //  IlaBankDemo
 //
 //  Created by webwerks on 14/02/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListingTVCell: UITableViewCell {
+class NaturePicListingTableCell: UITableViewCell {
     
     //MARK: IBOutlets
     @IBOutlet weak var descLbl: UILabel!
@@ -16,13 +16,11 @@ class ListingTVCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
         setupUI()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
     

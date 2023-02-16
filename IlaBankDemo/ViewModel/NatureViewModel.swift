@@ -13,6 +13,7 @@ class NatureViewModel: NSObject {
     
     override init() {}
 
+    //MARK: Fetch data from local saved json file
     func fetchNatureData() {
         if let data = Utils.readLocalJSONFile(forName: "ImageData"), let parsedData = parse(jsonData: data) {
             self.natureData = parsedData
@@ -20,6 +21,7 @@ class NatureViewModel: NSObject {
         }
     }
     
+    //MARK: Parse json data into readable format
     private func parse(jsonData: Data) -> [NatureDataModel]? {
         do {
             let decodedData = try JSONDecoder().decode([NatureDataModel].self, from: jsonData)
@@ -32,10 +34,12 @@ class NatureViewModel: NSObject {
 }
 
 extension NatureViewModel {
+    //MARK: Get total row count for carousel
     var numberOfRowsInCarousal: Int {
         return localSearchedList?.count ?? 0
     }
     
+    //MARK: Get total row count for given carousel index
     func numberOfRowForCarousal(index: Int) -> Int {
         if let imageDetailArr = getNatureDataForCarousalAt(index: index) {
             return imageDetailArr.count
@@ -43,6 +47,7 @@ extension NatureViewModel {
         return 0
     }
     
+    //MARK: Get data array for given carousel index
     func getNatureDataForCarousalAt(index: Int) -> [ImageDetails]? {
         if let natureDataArr = localSearchedList, natureDataArr.count > index {
             return natureDataArr[index].details
@@ -50,10 +55,12 @@ extension NatureViewModel {
         return nil
     }
     
+    //MARK: Get carousel data array
     func getCarousalDataArr() -> [NatureDataModel]? {
         return localSearchedList
     }
     
+    //MARK: Get filtered data based on search text
     func filterDataWith(searchTxt: String, index: Int) {
         if let data = natureData?[index], let details = data.details {
             localSearchedList?[index].details = details.filter({ $0.text?.lowercased().contains(searchTxt.lowercased()) ?? false })
