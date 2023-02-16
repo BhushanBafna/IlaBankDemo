@@ -54,6 +54,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.register(UINib(nibName: VcConstants.naturePicListingTableCell, bundle: nil), forCellReuseIdentifier: VcConstants.naturePicListingTableCell)
         tableView.estimatedRowHeight = 80
+        tableView.separatorInset = .zero
     }
     
     private func setupSearchBar() {

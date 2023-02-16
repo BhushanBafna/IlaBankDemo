@@ -10,8 +10,6 @@
 		18409419299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409418299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift */; };
 		1840941B299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840941A299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift */; };
 		187CF806299BC9BB00CE7831 /* CustomCarlouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CF805299BC9BB00CE7831 /* CustomCarlouselView.swift */; };
-		188FA55D29925A3700E10611 /* CarouselCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FA55B29925A3700E10611 /* CarouselCollectionCell.swift */; };
-		188FA55E29925A3700E10611 /* CarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188FA55C29925A3700E10611 /* CarouselCollectionCell.xib */; };
 		1897EE84299E020E001864EE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897EE83299E020E001864EE /* Utils.swift */; };
 		189C17342992502200305871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17332992502200305871 /* AppDelegate.swift */; };
 		189C17362992502200305871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C17352992502200305871 /* SceneDelegate.swift */; };
@@ -24,6 +22,8 @@
 		18A644D3299A62EC00986345 /* NatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A644D2299A62EC00986345 /* NatureViewModel.swift */; };
 		18A644D6299A642100986345 /* NatureDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A644D5299A642100986345 /* NatureDataModel.swift */; };
 		18A644D8299A77C300986345 /* ImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A644D7299A77C300986345 /* ImageData.json */; };
+		18FDF372299E649B00828A0A /* CarouselCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FDF370299E649B00828A0A /* CarouselCollectionCell.xib */; };
+		18FDF373299E649B00828A0A /* CarouselCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDF371299E649B00828A0A /* CarouselCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,6 @@
 		18409418299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableViewDataSourceDelegate.swift"; sourceTree = "<group>"; };
 		1840941A299BB48500EFE530 /* ViewController+CollectionViewDatasourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionViewDatasourceDelegate.swift"; sourceTree = "<group>"; };
 		187CF805299BC9BB00CE7831 /* CustomCarlouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarlouselView.swift; sourceTree = "<group>"; };
-		188FA55B29925A3700E10611 /* CarouselCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionCell.swift; sourceTree = "<group>"; };
-		188FA55C29925A3700E10611 /* CarouselCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCollectionCell.xib; sourceTree = "<group>"; };
 		1897EE83299E020E001864EE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		189C17302992502200305871 /* IlaBankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlaBankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C17332992502200305871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		18A644D2299A62EC00986345 /* NatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureViewModel.swift; sourceTree = "<group>"; };
 		18A644D5299A642100986345 /* NatureDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureDataModel.swift; sourceTree = "<group>"; };
 		18A644D7299A77C300986345 /* ImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ImageData.json; sourceTree = "<group>"; };
+		18FDF370299E649B00828A0A /* CarouselCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselCollectionCell.xib; sourceTree = "<group>"; };
+		18FDF371299E649B00828A0A /* CarouselCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,30 +104,20 @@
 		188FA5542992547F00E10611 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18FDF374299E64B200828A0A /* Cell */,
 				1893F105299B47B200C14BB2 /* Controller */,
 				18A644D0299A571500986345 /* Storyboard */,
-				188FA55A29925A0300E10611 /* CVCell */,
-				188FA559299259FC00E10611 /* TVCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		188FA559299259FC00E10611 /* TVCell */ = {
+		188FA559299259FC00E10611 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				18A4F7AE2993A7A10000E189 /* NaturePicListingTableCell.swift */,
 				18A4F7AF2993A7A10000E189 /* NaturePicListingTableCell.xib */,
 			);
-			path = TVCell;
-			sourceTree = "<group>";
-		};
-		188FA55A29925A0300E10611 /* CVCell */ = {
-			isa = PBXGroup;
-			children = (
-				188FA55B29925A3700E10611 /* CarouselCollectionCell.swift */,
-				188FA55C29925A3700E10611 /* CarouselCollectionCell.xib */,
-			);
-			path = CVCell;
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		1893F105299B47B200C14BB2 /* Controller */ = {
@@ -213,6 +203,25 @@
 				189C17352992502200305871 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		18FDF36F299E649B00828A0A /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18FDF370299E649B00828A0A /* CarouselCollectionCell.xib */,
+				18FDF371299E649B00828A0A /* CarouselCollectionCell.swift */,
+			);
+			name = CollectionViewCell;
+			path = IlaBankDemo/View/Cell/CollectionViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		18FDF374299E64B200828A0A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18FDF36F299E649B00828A0A /* CollectionViewCell */,
+				188FA559299259FC00E10611 /* TableViewCell */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,9 +328,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FDF372299E649B00828A0A /* CarouselCollectionCell.xib in Resources */,
 				189C17432992502C00305871 /* LaunchScreen.storyboard in Resources */,
 				18A644D8299A77C300986345 /* ImageData.json in Resources */,
-				188FA55E29925A3700E10611 /* CarouselCollectionCell.xib in Resources */,
 				189C17402992502C00305871 /* Assets.xcassets in Resources */,
 				189C173B2992502200305871 /* Main.storyboard in Resources */,
 				18A4F7B12993A7A10000E189 /* NaturePicListingTableCell.xib in Resources */,
@@ -350,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18409419299BB43900EFE530 /* ViewController+TableViewDataSourceDelegate.swift in Sources */,
+				18FDF373299E649B00828A0A /* CarouselCollectionCell.swift in Sources */,
 				18A4F7B02993A7A10000E189 /* NaturePicListingTableCell.swift in Sources */,
 				187CF806299BC9BB00CE7831 /* CustomCarlouselView.swift in Sources */,
 				189C17382992502200305871 /* ViewController.swift in Sources */,
@@ -357,7 +367,6 @@
 				18A644D6299A642100986345 /* NatureDataModel.swift in Sources */,
 				189C17342992502200305871 /* AppDelegate.swift in Sources */,
 				18A644D3299A62EC00986345 /* NatureViewModel.swift in Sources */,
-				188FA55D29925A3700E10611 /* CarouselCollectionCell.swift in Sources */,
 				189C17362992502200305871 /* SceneDelegate.swift in Sources */,
 				1897EE84299E020E001864EE /* Utils.swift in Sources */,
 			);
