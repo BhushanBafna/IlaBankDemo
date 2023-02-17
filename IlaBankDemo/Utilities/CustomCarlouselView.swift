@@ -2,7 +2,7 @@
 //  CustomCarlouselView.swift
 //  IlaBankDemo
 //
-//  Created by webwerks on 14/02/23.
+//  Created by webwerks on 17/02/23.
 //
 
 import UIKit
